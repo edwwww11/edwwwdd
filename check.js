@@ -1,3 +1,22 @@
+// ==UserScript==
+// @name         Chiikawa Market Storage Checke
+// @version      2025-01-10
+// @description  Check storage of products in Chiikawa market.
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=chiikawamarket.jp
+// @match        https://chiikawamarket.jp/products/*
+// @match        https://chiikawamarket.jp/collections/*/products/*
+// @match        https://chiikawamarket.jp/cart
+// @match        https://nagano-market.jp/products/*
+// @match        https://nagano-market.jp/*/products/*
+// @match        https://nagano-market.jp/collections/*/products/*
+// @match        https://nagano-market.jp/*/collections/*/products/*
+// @match        https://nagano-market.jp/cart
+// @match        https://nagano-market.jp/*/cart
+// @match        https://chiikawamogumogu.shop/products/*
+// @match        https://chiikawamogumogu.shop/collections/*/products/*
+// @grant        none
+// ==/UserScript==
+
 const MAX_QUANTITY = 1000000;
 
 (async function () {
